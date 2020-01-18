@@ -1,0 +1,192 @@
+{
+  "name": "2020 Stand App",
+  "console": true,
+  "export": "stand",
+  "app": {
+    "Stand": {
+      "Login": {
+        "type": "login",
+        "options": {
+          "placeholder": "Input your ID here."
+        }
+      }
+    },
+    "Autonomous": {
+      "Cells in Low": {
+        "type": "counter",
+        "options": {
+          "increment": 1
+        }
+      },
+      "Cells in High": {
+        "type": "counter",
+        "options": {
+          "increment": 1
+        }
+      },
+      "Leave Line": {
+        "type": "radio",
+        "options": {
+          "yes": {
+            "value": "yes"
+          },
+          "no": {
+            "value": "no"
+          }
+        }
+      }
+    },
+    "Teleop": {
+      "Low Goal": {
+        "type": "counter",
+        "options": {
+          "increment": 1
+        }
+      },
+      "High Goal": {
+        "type": "counter",
+        "options": {
+          "increment": 1
+        }
+      },
+      "Dropped Cell": {
+        "type": "counter",
+        "options": {
+          "increment": 1
+        }
+      },
+      "Missed Low": {
+        "type": "counter",
+        "options": {
+          "increment": 1
+        }
+      },
+      "Missed High": {
+        "type": "counter",
+        "options": {
+          "increment": 1
+        }
+      },
+      "Control Panel": {
+        "type": "checkbox",
+        "options": {
+          "stage 2": {
+            "value": "stage2"
+          },
+          "stage 3": {
+            "value": "stage3"
+          }
+        }
+      },
+      "Played Defense": {
+        "type": "checkbox",
+        "options": {
+          "yes": {
+            "value": "true"
+          }
+        }
+      },
+      "Faced Defense": {
+        "type": "checkbox",
+        "options": {
+          "yes": {
+            "value": "true"
+          }
+        }
+      }
+    },
+    "Endgame": {
+      "Climb": {
+        "type": "radio",
+        "options": {
+          "no climb": {
+            "value": "none"
+          },
+          "park": {
+            "value": "park"
+          },
+          "attempted": {
+            "value": "attempted"
+          },
+          "side": {
+            "value": "side"
+          },
+          "center": {
+            "value": "center"
+          },
+          "assisted": {
+            "value": "assisted"
+          }
+        }
+      },
+      "Assistance": {
+        "type": "radio",
+        "options": {
+          "none": {
+            "value": "none"
+          },
+          "gave 1": {
+            "value": "gave1"
+          },
+          "gave 2": {
+            "value": "gave2"
+          }
+        }
+      },
+      "Level": {
+        "type": "radio",
+        "options": {
+          "no climb": {
+            "value": "none"
+          },
+          "alone": {
+            "value": "alone"
+          },
+          "unbalanced": {
+            "value": "unbalanced"
+          },
+          "balanced": {
+            "value": "balanced"
+          }
+        }
+      }
+    },
+    "Notes": {
+      "Notes": {
+        "type": "textarea",
+        "options": {
+          "placeholder": "Put any important information here."
+        }
+      },
+      "Stopped": {
+        "type": "checkbox",
+        "options": {
+          "n/a": {
+            "value": "none"
+          },
+          "lost comms": {
+            "value": "comms"
+          },
+          "e-stopped": {
+            "value": "e-stop"
+          },
+          "robot broke": {
+            "value": "broken"
+          },
+          "died": {
+            "value": "died"
+          },
+          "no show": {
+            "value": "noshow"
+          },
+          "fell over": {
+            "value": "fell"
+          },
+          "other/idk": {
+            "value": "other"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,238 @@
+
+{
+  "name": "2020 Pit App",
+  "console": false,
+  "export": "pit",
+  "app": {
+    "Login": {
+      "Scout": {
+        "type": "login",
+        "options": {
+          "placeholder": "Input your ID here."
+        }
+      }
+    },
+    "General Info": {
+      "Robot Name": {
+        "type": "input",
+        "options": {
+          "placeholder": "Dave"
+        }
+      },
+      "Weight": {
+        "type": "input",
+        "options": {
+          "placeholder": "125"
+        }
+      },
+      "Language": {
+        "type": "radio",
+        "options": {
+          "java": {
+            "value": "java"
+          },
+          "labview": {
+            "value": "labview"
+          },
+          "python": {
+            "value": "python"
+          },
+          "c++": {
+            "value": "c++"
+          },
+          "kotlin": {
+            "value": "kotlin"
+          },
+          "scratch": {
+            "value": "scratch"
+          },
+          "other": {
+            "value": "other"
+          }
+        }
+      }
+    },
+    "Autonomous": {
+      "Starting Position": {
+        "type": "checkbox",
+        "options": {
+          "power port": {
+            "value": "powerport"
+          },
+          "loading station": {
+            "value": "loading"
+          },
+          "center": {
+            "value": "center"
+          }
+        }
+      },
+      "Cross Line": {
+        "type": "radio",
+        "options": {
+          "yes": {
+            "value": "yes"
+          },
+          "no": {
+            "value": "no"
+          }
+        }
+      },
+      "Auto Action": {
+        "type": "textarea",
+        "options": {
+          "placeholder": "What can you do during auto? How many cells and where?"
+        }
+      }
+    },
+    "Capabilities": {
+      "Cell Shooting": {
+        "type": "checkbox",
+        "options": {
+          "low": {
+            "value": "low"
+          },
+          "high": {
+            "value": "high"
+          },
+          "none": {
+            "value": "none"
+          }
+        }
+      },
+      "Shooting Locations": {
+        "type": "textarea",
+        "options": {
+          "placeholder": "Where must the robot be when shooting?"
+        }
+      },
+      "Load Cells": {
+        "type": "checkbox",
+        "options": {
+          "ground": {
+            "value": "ground"
+          },
+          "portal": {
+            "value": "portal"
+          },
+          "none": {
+            "value": "none"
+          }
+        }
+      },
+      "Control Panel": {
+        "type": "checkbox",
+        "options": {
+          "rotate 3-5": {
+            "value": "rotation"
+          },
+          "set color": {
+            "value": "setColor"
+          },
+          "none": {
+            "value": "none"
+          }
+        }
+      },
+      "Climb": {
+        "type": "textarea",
+        "options": {
+          "placeholder": "Can you climb from any switch height? Anywhere on the switch?"
+        }
+      }
+    },
+    "Robot": {
+      "Wheels": {
+        "type": "checkbox",
+        "options": {
+          "pneumatic": {
+            "value": "pneumatic"
+          },
+          "mecanum": {
+            "value": "mecanum"
+          },
+          "swerve": {
+            "value": "swerve"
+          },
+          "other": {
+            "value": "other"
+          }
+        }
+      },
+      "Wheel Other": {
+        "type": "textarea",
+        "options": {
+          "placeholder": "If prev answer was 'other', put here. Otherwise, leave blank."
+        }
+      },
+      "Motors": {
+        "type": "input",
+        "options": {
+          "placeholder": "cims, 775 pros, etc. Also have quantity as well."
+        }
+      },
+      "Fit Under Panel": {
+        "type": "radio",
+        "options": {
+          "yes": {
+            "value": "yes"
+          },
+          "no": {
+            "value": "no"
+          }
+        }
+      },
+      "Go Over 1-Inch Humps": {
+        "type": "radio",
+        "options": {
+          "yes": {
+            "value": "yes"
+          },
+          "sometimes": {
+            "value": "sometimes"
+          },
+          "no": {
+            "value": "no"
+          }
+        }
+      },
+      "Vision/Camera": {
+        "type": "input",
+        "options": {
+          "placeholder": "Describe your vision/camera system."
+        }
+      },
+      "Weight Cheesecake": {
+        "type": "textarea",
+        "options": {
+          "placeholder": "If you can climb, are you willing to add additional weight to your robot for balancing purposes?"
+        }
+      }
+    },
+    "Summary": {
+      "Primary Strategy": {
+        "type": "checkbox",
+        "options": {
+          "low": {
+            "value": "low"
+          },
+          "high": {
+            "value": "high"
+          },
+          "defense": {
+            "value": "defense"
+          },
+          "spinner": {
+            "value": "spinner"
+          }
+        }
+      },
+      "Notes": {
+        "type": "textarea",
+        "options": {
+          "placeholder": "Put any important information here. Make sure to take a photo of the robot!"
+        }
+      }
+    }
+  }
+}
