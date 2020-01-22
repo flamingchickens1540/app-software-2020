@@ -1,0 +1,22 @@
+body {
+  font-family: Lato, Raleway, Helvetica, sans-serif;
+  overflow-x: hidden;
+  text-align: center;
+}
+.form-control {
+  margin-bottom: 50px;
+}
+.red {
+  /* color: red; */
+  border: 1px solid red;
+}
+.blue {
+  border: 1px solid blue;
+  /* color: blue; */
+}
+label {
+  font-size: 30px;
+}
+.textarea {
+  height: 100px;
+}
