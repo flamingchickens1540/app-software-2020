@@ -139,6 +139,12 @@
         "options": {
           "placeholder": "Can you climb from any switch height? Anywhere on the switch?"
         }
+      },
+      "Cell Capacity": {
+        "type": "input",
+        "options": {
+          "placeholder": "The number of cells the robot can hold."
+        }
       }
     },
     "Robot": {
@@ -200,12 +206,6 @@
         "type": "input",
         "options": {
           "placeholder": "Describe your vision/camera system."
-        }
-      },
-      "Weight Cheesecake": {
-        "type": "textarea",
-        "options": {
-          "placeholder": "If you can climb, are you willing to add additional weight to your robot for balancing purposes?"
         }
       }
     },
